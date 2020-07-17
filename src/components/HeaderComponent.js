@@ -17,6 +17,7 @@ class Header extends Component {
       isNavOpen: false
     }
     this.toggleNav = this.toggleNav.bind(this);
+    // to use it through this.functionName we need to bind it 
   }
   toggleNav(){
     this.setState({
