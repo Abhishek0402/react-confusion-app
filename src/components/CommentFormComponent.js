@@ -85,8 +85,8 @@ class CommentForm extends Component {
                 </Label>
            
                   <Control.select
-                    model=".contactType"
-                    name="contactType"
+                    model=".rating"
+                    name="rating"
                     className="form-control"
                   >
                     <option>1</option>
